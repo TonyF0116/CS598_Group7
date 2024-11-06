@@ -39,6 +39,9 @@ Three methods are defined in naive_rag function to retrieve supporting facts:
 
 The evaluation is based on the percentage of correct supporting fact retrievals for each approach.
 
-- Approach 1: Accuracy ~0.526
-- Approach 2: Accuracy ~0.196
-- Approach 3: Accuracy ~0.26
+- Approach 1: Accuracy 27.6% (number of titles = 2)
+- Approach 2: Accuracy 19.6% (number of entries = 4)
+- Approach 3: Accuracy 26.0% (number of entries = 4)
+
+Expected plot for visualizing the baseline accuracies:
+![Supporting fact accuracy plot](plots/Supporting%20fact%20accuracy.png)
